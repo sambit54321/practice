@@ -1,0 +1,8 @@
+node {
+stage('Scm Checkout') {
+git 'https://github.com/sambit54321/practice'
+}
+stage ('compile-package'){
+sh 'mvn package'
+}
+}
