@@ -8,7 +8,7 @@
   <packaging>jar</packaging>
 
   <name>Simple Maven example</name>
-  <url>https://jitpack.io/#jitpack/maven-simple/0.1</url>
+  <url>https://github.com/sambit54321/practice/edit/master/maven-simple-master/pom.xml>
 
   <dependencies>
     <dependency>
