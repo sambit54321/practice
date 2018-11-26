@@ -3,6 +3,8 @@ stage('Scm Checkout') {
 git 'https://github.com/sambit54321/practice'
 }
 stage ('compile-package'){
-sh 'mvn package'
+//get maven home path
+def mvnHome = git credentialsId: '5eb0ad35-1e85-434a-ba6b-84513f2bd1d9', url: 'https://github.com/sambit54321/practice.git'
+sh "${mvnHome}/bin/mvn package"
 }
 }
